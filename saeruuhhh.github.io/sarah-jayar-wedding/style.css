@@ -1,0 +1,294 @@
+/* ===========================
+   GENERAL
+=========================== */
+
+body{
+    margin:0;
+    padding:0;
+    background:#F7F5EA;
+    color:#3f4d3f;
+    font-family:'Cormorant Garamond', serif;
+}
+
+.section{
+    padding:90px 20px;
+}
+
+h2{
+    font-size:48px;
+    margin-bottom:30px;
+}
+
+
+/* ===========================
+   HERO
+=========================== */
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background:#F5F4E8;
+}
+
+.overlay{
+    width:100%;
+    max-width:1000px;
+    padding:20px;
+}
+
+.small-title{
+    letter-spacing:8px;
+    font-size:22px;
+    color:#4f5d4b;
+    margin-bottom:20px;
+}
+
+.couple-name{
+    font-family:'Great Vibes', cursive;
+    font-size:130px;
+    color:#66735D;
+    line-height:1;
+    margin-bottom:35px;
+}
+
+.wedding-date{
+    font-size:56px;
+    margin-bottom:10px;
+}
+
+.wedding-time{
+    font-size:40px;
+    margin-bottom:40px;
+}
+
+.invitation-btn{
+    display:inline-block !important;
+    background-color:#66735D !important;
+    color:#ffffff !important;
+    border:2px solid #66735D !important;
+    padding:16px 50px !important;
+    border-radius:50px !important;
+    font-size:24px;
+    font-weight:600;
+    text-decoration:none !important;
+    cursor:pointer;
+    transition:all .3s ease;
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+}
+
+.invitation-btn:hover{
+    background-color:#55614f !important;
+    border-color:#55614f !important;
+    color:#ffffff !important;
+    transform:translateY(-3px);
+}
+
+
+/* ===========================
+   COUNTDOWN
+=========================== */
+
+.countdown-section{
+
+    background:white;
+
+}
+
+#countdown{
+
+    font-size:46px;
+
+    color:#66735D;
+
+    font-weight:bold;
+
+}
+
+
+/* ===========================
+   CARDS
+=========================== */
+
+.card{
+
+    border:none;
+
+    border-radius:20px;
+
+    padding:30px;
+
+    text-align:center;
+
+    background:white;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.card h4{
+
+    margin-bottom:20px;
+
+}
+
+
+/* ===========================
+   REMINDER
+=========================== */
+
+.reminder ul{
+
+    list-style:none;
+
+    padding:0;
+
+}
+
+.reminder li{
+
+    margin:18px 0;
+
+    font-size:24px;
+
+}
+
+
+/* ===========================
+   RSVP
+=========================== */
+
+form{
+
+    max-width:600px;
+
+    margin:auto;
+
+}
+
+.form-control,
+.form-select{
+
+    height:60px;
+
+    font-size:20px;
+
+    border-radius:15px;
+
+}
+
+.btn-success{
+
+    background:#66735D;
+
+    border:none;
+
+    border-radius:15px;
+
+    height:60px;
+
+    font-size:22px;
+
+}
+
+.btn-success:hover{
+
+    background:#55614f;
+
+}
+
+
+/* ===========================
+   INVITATION IMAGES
+=========================== */
+
+.invitation{
+
+    width:100%;
+
+    max-width:700px;
+
+    border-radius:20px;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.12);
+
+}
+
+
+/* ===========================
+   MOBILE
+=========================== */
+
+@media(max-width:768px){
+
+.small-title{
+
+    font-size:18px;
+
+    letter-spacing:5px;
+
+}
+
+.couple-name{
+
+    font-size:78px;
+
+}
+
+.wedding-date{
+
+    font-size:36px;
+
+}
+
+.wedding-time{
+
+    font-size:28px;
+
+}
+
+.invitation-btn{
+
+    width:260px;
+
+    font-size:24px;
+
+}
+
+#countdown{
+
+    font-size:34px;
+
+}
+
+.reminder li{
+
+    font-size:20px;
+
+}
+
+h2{
+
+    font-size:38px;
+
+}
+
+}
+/* ==========================
+   PRENUP VIDEO
+========================== */
+
+.prenup-video{
+
+    width:100%;
+    max-width:900px;
+
+    border-radius:20px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+
+    overflow:hidden;
+
+}
